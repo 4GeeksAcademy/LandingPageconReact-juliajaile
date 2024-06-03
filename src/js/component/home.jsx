@@ -9,13 +9,15 @@ import Footer from "./Footer";
 //create your first component
 const Home = () => {
 	return (
-		<div className="">
+		<div>
 			<Navbar/>
 			<Jumbotron/>
+		  <div className="container d-flex gap-5 mt-4">
 		    <Card/>
 			<Card/>
 			<Card/>
 			<Card/>
+		  </div>
 		    <Footer/> 
 		</div>
 	);
